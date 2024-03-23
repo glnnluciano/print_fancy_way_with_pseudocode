@@ -1,4 +1,4 @@
-import pyfiglet
+import pyfiglet, sys, time, os
 # pseudocode
 
 # ask user name to input name
@@ -19,6 +19,9 @@ my_description = ("I'am " + user_name + ". My dream career in the future is to b
 
 # print the sentence in fancy way
 fancy_description = pyfiglet.figlet_format(my_description)
-print(fancy_description)
 
 # add text animation 
+for char in fancy_description:
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.001)
