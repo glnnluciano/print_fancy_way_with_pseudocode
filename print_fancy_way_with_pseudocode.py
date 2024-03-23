@@ -1,3 +1,4 @@
+import pyfiglet
 # pseudocode
 
 # ask user name to input name
@@ -15,6 +16,9 @@ university = input("Please enter your current University: ")
 # compile and print username, job, birthday, and university in a sentence
 my_description = ("I'am " + user_name + ". My dream career in the future is to be a/an " + job
                   + ". My birthday is on " + birthday + ". I am currently studying at " + university + ".")
-print(my_description)
+
 # print the sentence in fancy way
+fancy_description = pyfiglet.figlet_format(my_description)
+print(fancy_description)
+
 # add text animation 
