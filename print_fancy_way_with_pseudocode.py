@@ -10,5 +10,7 @@ job = input("Please input your dream job: ")
 birthday = input("Please enter your birthday: ")
 
 # ask user to input its university 
+university = input("Please enter your current University: ")
+
 # print name in fancy way
 # print dream job in fancy way
