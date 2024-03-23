@@ -12,5 +12,9 @@ birthday = input("Please enter your birthday: ")
 # ask user to input its university 
 university = input("Please enter your current University: ")
 
-# print name in fancy way
-# print dream job in fancy way
+# compile and print username, job, birthday, and university in a sentence
+my_description = ("I'am " + user_name + ". My dream career in the future is to be a/an " + job
+                  + ". My birthday is on " + birthday + ". I am currently studying at " + university + ".")
+print(my_description)
+# print the sentence in fancy way
+# add text animation 
